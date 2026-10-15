@@ -11,7 +11,7 @@ public class Calculator {
         double y = Double.parseDouble(b);
         return switch (op) {
             case "+" -> x + y;
-            case "-" -> x + y;
+            case "-" -> x - y;
             case "*" -> x * y;
             case "/" -> {
                 if (y == 0) {
